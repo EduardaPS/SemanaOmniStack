@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+
+import './global.css';
+
+import Logon from './pages/Logon';
 
 function App() {
+ 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello word
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_black"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Logon></Logon> 
+      
     </div>
+    
+    
   );
 }
-
 export default App;
